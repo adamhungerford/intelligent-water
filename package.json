@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "scripts": {
     "start": "node index.js",
     "test": "echo \"No test specified\""
@@ -18,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/hallienicholas/intelligent-water/issues"
   },
-  "homepage": "https://github.com/hallienicholas/intelligent-water#readme"
+  "homepage": "https://github.com/hallienicholas/intelligent-water#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
