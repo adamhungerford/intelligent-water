@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "https://intelligent-water-alerts.herokuapp.com",
     "test": "echo \"No test specified\""
   },
   "repository": {
