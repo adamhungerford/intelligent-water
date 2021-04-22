@@ -5,6 +5,7 @@
   "main": "app.js",
   "node": "12.11.1",
   "scripts": {
+    "postinstall": "npm run build",
     "start": "node app.js",
     "test": "echo \"No test specified\""
   },
