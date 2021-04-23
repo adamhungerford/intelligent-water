@@ -1,3 +1,2 @@
-web:node app.js
-heroku config
-PORT: 4000
+
+web: npm run build && npm run heroku-server
