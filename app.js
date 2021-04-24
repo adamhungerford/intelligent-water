@@ -8,6 +8,9 @@ const server = http.createServer((req, res) => {
 
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello World');
+
+  res.setHeader('Content-Type', 'text/html');
+  res.end("<link rel='stylesheet' type='text/html' href='sb-admin-2.css'>")
 });
 
 server.listen(port, hostname, () => {
